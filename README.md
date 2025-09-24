@@ -4,10 +4,8 @@
 
 This tool has been developed for educational and research purposes, with the aim of supporting defense teams in the analysis and investigation of similar attacks.
 
-git clone https://github.com/Twinlion24434/BekiS_Base.git
+• git clone https://github.com/Twinlion24434/BekiS_Base.git
 
-▪ cd BekiS_Base
+▪ cd Bekis_Base
 
-▪ chmod +x BekiS_Base.py
-
-▪ python3 BekiS_Base.py
+▪ python3 Bekis_Base.py
