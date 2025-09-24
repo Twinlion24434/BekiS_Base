@@ -2,9 +2,9 @@ import threading
 import requests
 import sys
 import random
-print ('''###############################
+print('''###############################
 ######  ######  Bekis_HTTP-Attacker #
-##### () #####   by Twinlion  #
+#####  #####   by Twinlion  #
 ####      ####                #
 ###############################''')
 host = raw_input("Url/ip:")
