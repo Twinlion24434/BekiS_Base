@@ -2,11 +2,11 @@ import threading
 import requests
 import sys
 import random
-print '''###############################
+print ('''###############################
 ######  ######  Bekis_HTTP-Attacker #
 ##### () #####   by Twinlion  #
 ####      ####                #
-###############################'''
+###############################''')
 host = raw_input("Url/ip:")
 thread_num = input("threads:")
 
