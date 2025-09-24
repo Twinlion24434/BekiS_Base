@@ -4,11 +4,21 @@ import sys
 import random
 
 print('''
-Bekis_HTTP-Attacker
+###############################
+#                             #
+#     Bekis_HTTP-Attacker     #
+#         by Twinlion         #
+#                             #
+###############################
 ''')
 
 host = input("Url/ip: ")
-thread_num = int(input("threads: "))
+while True:
+    try:
+        thread_num = int(input("threads: "))
+        break
+    except ValueError:
+        print("Masukan jumlah thread yang valid.")
 
 user_agent = [
   "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1"
